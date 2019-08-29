@@ -1,4 +1,3 @@
-[![微信](https://img.shields.io/badge/微信号-elonsu-green.svg)](//shang.qq.com/wpa/qunwpa?idkey=bc73f12268da5c5eafcfc91f0dd05eb7fed033420921ef7bf4eca316deb7e12) 
 [![QQ群](https://img.shields.io/badge/扣扣群-973085376-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=bc73f12268da5c5eafcfc91f0dd05eb7fed033420921ef7bf4eca316deb7e12)
 
 <p align="center">
