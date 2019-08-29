@@ -17,243 +17,277 @@
        <img src="https://img.shields.io/github/stars/P-P-X/awesome-collector.svg?style=social&label=Stars"></img>
    </a>
 </p>	
-    
 
-### Java理论
 
-#### Java JVM
+### 系统架构
 
-- [JVM核心知识体系](https://mp.weixin.qq.com/s/clMdl6eW9hz9jiB5oDSawA)
+- [session一致性架构设计实践](https://mp.weixin.qq.com/s/NnnqVrC9-Jekwy3Opmvy_w)
 
-- [理解Java虚拟机](https://www.cnblogs.com/williamjie/p/9511108.html)
+- [数据库主从一致性，架构设计，实践](https://mp.weixin.qq.com/s/j_aZybFoFo0FbnmWcvDQzw)
 
-- [Java类加载机制](https://www.cnblogs.com/paddix/p/5268559.html)
+- [数据库双主一致性，架构设计，实践](https://mp.weixin.qq.com/s/sCjzzi9VXPk-JcWXySfHgw)
 
-- [虚拟机创建对象的两种方式](https://blog.csdn.net/sunny_aaadolly/article/details/78924799)
+- [数据库与缓存一致性，架构设计，实践](https://mp.weixin.qq.com/s/koKDacEH1v9M6B-XDFfuOw)
 
-- [JVM内存模型: 线程私有(程序计数器、本地方法栈、虚拟机栈)、线程共享(堆、方法区)](http://tech.huntswork.com/2016/08/01/%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E8%99%9A%E6%8B%9F%E6%9C%BA/)
+- [数据冗余一致性，架构设计，实践](https://mp.weixin.qq.com/s/ALSDqOslGXx2Qz7e5YKtFg)
 
-- [被GC判断为”垃圾”的对象一定会回收吗](https://blog.csdn.net/mine_song/article/details/63251367)
+- [MySQL主从延时优化](https://mp.weixin.qq.com/s/pP2f7CYbT7ftM0tvk9c4mQ)
+
+- [互联网架构如何实现高并发](https://mp.weixin.qq.com/s/AMPIwgParjbLUBuCxUCYmw)
+
+- [TCP接入层的负载均衡、高可用、扩展性架构](https://mp.weixin.qq.com/s/F96LcWnoRKYVxeJFkyAgBQ)
+
+- [工作线程数究竟设置多少合适](https://mp.weixin.qq.com/s/BRpngTEFHjzpGv8tkdqmPQ)
+
+- [消息时序一致性，架构设计，实践](https://mp.weixin.qq.com/s/_853zUkO9uPnirHzCQoVyw)
+
+- [分布式事务一致性，架构设计，实践](https://mp.weixin.qq.com/s/FvB-hOBT13SMfZko5iagAg)
+
+- [高并发库存扣减一致性，架构设计，实践](https://mp.weixin.qq.com/s/waGRvyhab2z8b-BIw9bJeA)
+
+- [秒杀系统架构优化思路](https://mp.weixin.qq.com/s/5aMN9SqaWa57rYGgtdAF_A)
+
+- [互联网架构为什么要做服务化](https://mp.weixin.qq.com/s/wwJaxK2E5fZu_QCik-NouQ)
 
 <!-- more -->
 
-- [Java对象引用类型: 强、软、弱、虚](http://tech.huntswork.com/2016/08/01/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E8%99%9A%E6%8B%9F%E6%9C%BA/)
+- [各大互联网公司架构演进之路汇总](https://mp.weixin.qq.com/s/esYjHTHHcY-UMmvl9JqYXw)
 
-- [对象判死方法: 引用计数法、可达性分析法(GC Roots)](http://tech.huntswork.com/2016/08/01/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E8%99%9A%E6%8B%9F%E6%9C%BA/)
+- [高并发IM系统架构优化实践](https://juejin.im/post/5b1e2cc15188257d4529804b)
 
-- [垃圾收集算法: 标记-清除、复制、标记-整理、分代收集](http://tech.huntswork.com/2016/08/01/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E8%99%9A%E6%8B%9F%E6%9C%BA/)
+- [基于 Spring Boot、Spring Cloud、Docker 的微服务系统架构实践](https://juejin.im/entry/58cba0d361ff4b00601f3339)
 
-- [Java垃圾收集器: Serial、ParNew、Parallel Scavenge、Serial Old、Parallel Old、CMS、G1](http://tech.huntswork.com/2016/08/01/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E8%99%9A%E6%8B%9F%E6%9C%BA/)
+- [亿级流量系统架构之如何支撑百亿级数据的存储与计算](https://juejin.im/post/5bfab59fe51d4551584c7bcf)
 
-- [GC回收总结: 4种垃圾收集算法和7中垃圾收集器](https://blog.csdn.net/clover_lily/article/details/80160726)
+- [分布式事务的四种解决方案](https://hhbbz.github.io/2018/09/06/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%9B%9B%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/)
 
-- [MinorGC、MajorGC和FullGC区别](http://www.importnew.com/15820.html)
+- [级流量系统架构之如何支撑百亿级数据的存储与计算](https://juejin.im/post/5bfab59fe51d4551584c7bcf)
 
-- [MinorGC和FullGC的触发时机, 什么是HandlerPromotionFailure](https://www.cnblogs.com/williamjie/p/9516367.html)
+- [亿级流量系统架构之如何设计高容错分布式计算系统](https://juejin.im/post/5bfbeeb9f265da61407e9679)
 
-- [深入CMS垃圾收集器](http://www.importnew.com/27822.html)
+- [亿级流量系统架构之如何设计承载百亿流量的高性能架构](https://juejin.im/post/5bfd2df1e51d4574b133dd3a)
 
-- [为什么CMS两次标记时要](https://blog.csdn.net/fhy569039351/article/details/83960709)
+- [亿级流量系统架构之如何设计每秒十万查询的高并发架构](https://juejin.im/post/5bfe771251882509a7681b3a)
 
-- [CmsGC问题排查](https://iamzhongyong.iteye.com/blog/1989829)
+- [亿级流量系统架构之如何设计全链路99.99%高可用架构](https://juejin.im/post/5bffab686fb9a04a102f0022)
 
-- [JavaG1学习笔记](https://www.cnblogs.com/williamjie/p/10191142.html)
+- [亿级流量系统架构之如何在上万并发场景下设计可扩展架构-上](https://juejin.im/post/5c221654e51d45229f76e647)
 
-- [深入G1垃圾收集器](https://liuzhengyang.github.io/2017/06/07/garbage-first-collector/)
+- [亿级流量系统架构之如何在上万并发场景下设计可扩展架构-中](https://juejin.im/post/5c23901a51882565986a1909)
 
-- [Cms和G1比较](https://www.cnblogs.com/rgever/p/9534857.html)
+- [亿级流量系统架构之如何在上万并发场景下设计可扩展架构](https://juejin.im/post/5c242848f265da615a41de2c)
 
-- [深入ZGC垃圾收集器](https://mp.weixin.qq.com/s/DBYMqAyMOvSFiCDtYerqxw)
+- [MQ如何解决消息的顺序&重复两大硬伤](https://blog.csdn.net/u011647020/article/details/83656819)
 
-- [一文读懂Java 11的ZGC为何如此高效](https://mp.weixin.qq.com/s/nAjPKSj6rqB_eaqWtoJsgw)
+- [高并发架构 TCP认知](https://juejin.im/post/5cd103e2f265da03804383e1)
 
-- [Java堆和栈的区别,JVM堆和栈的介绍](https://blog.csdn.net/qq_41675686/article/details/80400775)
+- [高并发架构 CDN认知](https://juejin.im/post/5cc681fc6fb9a0320e73e31e)
 
-- [JDK1.7的永久代(PermGen)和JDK1.8的元空间(Metaspace)](https://www.cnblogs.com/williamjie/p/9563766.html)
+- [动手实现一致性哈希算法](https://juejin.im/post/5ccee83b51882575c633d5ff)
 
-- [Java内存溢出和栈溢出](https://blog.csdn.net/z69183787/article/details/75530650)
+- [什么是CAP定理](https://mp.weixin.qq.com/s/jRA2vRqmjs9WRMZWvzesMA)
 
-- [Java溢出解决](https://blog.csdn.net/qq_38306026/article/details/79290367)
+- [常见限流算法总结](http://www.itzh.org/2018/01/12/rate_limiter_summary/)
 
-- [CmsGC问题排查](https://iamzhongyong.iteye.com/blog/1989829)
+- [5分钟了解CDN](https://mp.weixin.qq.com/s/ldENrXohUUhTUGvKof6T6w)
 
-- [Jstack查询死锁线程](https://www.cnblogs.com/aspirant/p/9670212.html)
+- [漫画：什么是区块链？](https://mp.weixin.qq.com/s/nY0hna6co2RB0QDBhXFX5A)
 
-- [Java程序初始化顺序:静态代码块、代码块、方法](http://tech.huntswork.com/2016/03/27/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E7%B1%BB%E4%B8%8E%E5%8F%98%E9%87%8F/)
+- [细聊分布式ID生成方法](https://mp.weixin.qq.com/s/0H-GEXlFnM1z-THI8ZGV2Q)
 
-- [JVM进阶系列](https://blog.csdn.net/wwwtotoro/article/details/72763014)
+- [漫画：什么是SnowFlake算法](https://mp.weixin.qq.com/s/JiyZbaAujBtD8F4ddc-uAw)
 
-- [CMS收集器和G1收集器优缺点](http://www.cnblogs.com/aspirant/p/8663897.html)
+- [漫画：如何实现抢红包算法](https://mp.weixin.qq.com/s/AIE33sdT2QI6UL8cs1kJCQ)
 
-- [Java堆外内存回收原理](https://mp.weixin.qq.com/s/lOA-6j0SeTjjHz1gYPFNQA)
+- [微信红包算法初探](http://www.360doc.com/content/18/0225/13/16915_732327859.shtml)
 
-- [性能优化系列三：JVM优化](https://www.cnblogs.com/leeSmall/p/9325164.html)
+- [微信红包算法以及带上下限的红包算法](https://blog.csdn.net/paincupid/article/details/82054647)
 
-- [一个Java对象到底占用多大内存](https://www.jianshu.com/p/194b745884a5)
+- [秒杀系统架构优化思路](https://mp.weixin.qq.com/s/yrTLJ50GKoOip0wLpQLA_Q)
 
-- Hashcode相等两个类一定相等? equals呢？相反呢？
-#### Java Collection&JUC
+- [支付平台的架构设计](https://mp.weixin.qq.com/s/QDqtnj02gfxdlyfTKOOnGQ)
 
-- [JDK1.7和1.8的区别](https://www.cnblogs.com/aspirant/p/8617201.html)
+- [微信为啥这么省流量](https://mp.weixin.qq.com/s/PlUT-xIDGy-SdJkimHvC9A)
 
-- [Java面向对象特征: 封装、继承、多态](http://tech.huntswork.com/2016/03/27/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/)
+- [百度咋做长文本去重](https://mp.weixin.qq.com/s/8Lb7URGBexileA3_WR1apg)
 
-- [Java变量访问权限: public、protected、default、private](http://tech.huntswork.com/2016/03/27/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E7%B1%BB%E4%B8%8E%E5%8F%98%E9%87%8F/)
+- [58怎么玩数据库架构](https://mp.weixin.qq.com/s/-MgviD__4Pp-YWY_k5E2Pw)
 
-- [Java位运算对比说明](http://tech.huntswork.com/2014/01/11/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-%E4%BD%8D%E8%BF%90%E7%AE%97/)
+- [如何不停机分库分表迁移](https://mp.weixin.qq.com/s/1Vjv7rvrbZVqixzgS_AaMw)
 
-- [Java对象深拷贝和浅拷贝](https://blog.csdn.net/wangxueming/article/details/52034841)
+- [双机热备的原理](https://mp.weixin.qq.com/s/mKkLJLr_XF_M-gkFr4jTyg)
 
-- [Java关键字.final、static、this、super对比](https://github.com/Snailclimb/JavaGuide/blob/master/Java%E7%9B%B8%E5%85%B3/final%E3%80%81static%E3%80%81this%E3%80%81super.md)
+- [秒杀架构实践](https://mp.weixin.qq.com/s/a9YKsZ-GejFjQMCUIZPBQw)
 
-- [Java序列化transient关键字使用小记](https://www.cnblogs.com/aspirant/p/8905783.html)
+- [30秒懂SQL中的join](https://mp.weixin.qq.com/s/OfbwO2Sz1QNxfSRpNLzAwA)
 
+- [浅谈MySQL集群高可用架构](https://mp.weixin.qq.com/s/ByXZxm7Ih_Vn0Z7rLo_MQw)
 
-- [Java字符串.String、StringBuffer、StringBuilder对比](http://www.cnblogs.com/su-feng/p/6659064.html)
+- [漫画：什么是蓝绿部署](https://mp.weixin.qq.com/s/pzvZoyFG9j4takV6Q0pHWw)
 
-#### 容器集合
+- [Nginx教程](http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html)
 
-- [Java集合.List、Set、Map区别概述](https://blog.csdn.net/u010775025/article/details/79315361)
+- [TCC分布式事务的实现原理](https://mp.weixin.qq.com/s/cYDDqUNVlstvyiyBeu-GCg)
 
-- [Java集合.List接口及其实现](https://www.cnblogs.com/chanshuyi/p/4468467.html)
+- [分库分表的事务处理机制](https://mp.weixin.qq.com/s/Z2uqixTplk5CilQNamOR2A)
 
-- [Java集合.Set接口及其实现](https://www.cnblogs.com/chanshuyi/p/4468470.html)
+- [你真的理解了MVC, MVP, MVVM吗](https://mp.weixin.qq.com/s/apNpcWsB4ujiuqbIdsF-jg)
 
-- [Java集合.Map接口及其实现](https://www.cnblogs.com/chanshuyi/p/4468471.html)
+- [SSO单点登录认识](https://mp.weixin.qq.com/s/XW6fTPGuW48jxfWrOqucmA)
 
-- [Java集合.Vector、ArrayList、LinkedList区别](https://blog.csdn.net/u010775025/article/details/79315361)
+- [荔枝Redis高可用方案](https://www.jianshu.com/p/af0b60d0be8d)
 
-- [Java集合.HashMap和HashTable的区别](https://blog.csdn.net/varyall/article/details/81988978)
+- [SlimTrie单机百亿文件的极致索引-设计篇](https://openacid.github.io/tech/algorithm/slimtrie-design/)
 
-- Hashmap和Treemap有什么区别? 底层数据结构是什么?
+- [SlimTrie单机百亿文件的极致索引-实现篇](https://openacid.github.io/tech/algorithm/slimtrie-impl/)
 
-- [Java集合.HashMap的长度为什么是2的幂次方](https://blog.csdn.net/varyall/article/details/81988978)
+- [消息中间件如何实现每秒几十万的高并发写入](https://juejin.im/post/5c7bd09b6fb9a049ba424c15)
 
-- [HashMap 多线程下死循环分析及JDK8修复](https://cloud.tencent.com/developer/article/1120823)
+- [蚂蚁金服异地多活单元化架构解决方案](https://tech.antfin.com/solutions/multiregionldc)
 
-- [Java集合.ConcurrentHashMap和HashTable的区别](https://blog.csdn.net/varyall/article/details/81988978)
+- [浅谈 OpenResty](https://blog.csdn.net/yhclt/article/details/79309237)
 
-- [Java集合.ArrayList源码分析](http://www.tianxiaobo.com/2018/01/28/ArrayList%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/)
+- [免费SSL证书letsencrypt配置教程](https://timyang.net/web/https-nginx-ubuntu-howto/)
 
-- [Java集合.LinkedList源码分析(JDK 1.8)](http://www.tianxiaobo.com/2018/01/31/LinkedList-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-JDK-1-8/)
+- [金融分布式架构.素描单元化](https://zhuanlan.zhihu.com/p/34366940)
 
-- [Java集合.HashMap源码分析(JDK1.8)](http://www.tianxiaobo.com/2018/01/18/HashMap-%E6%BA%90%E7%A0%81%E8%AF%A6%E7%BB%86%E5%88%86%E6%9E%90-JDK1-8/)
+- [蚂蚁金服异地多活单元化架构下的微服务体系](https://yq.aliyun.com/articles/665155)
 
-- [Java集合.LinkedHashMap 源码详细分析（JDK1.8）](http://www.tianxiaobo.com/2018/01/24/LinkedHashMap-%E6%BA%90%E7%A0%81%E8%AF%A6%E7%BB%86%E5%88%86%E6%9E%90%EF%BC%88JDK1-8%EF%BC%89/)
+- [微信后台基于时间序的海量数据冷热分级架构设计实践](https://mp.weixin.qq.com/s/XlZF0GDt7dnHyYuS1an6tg)
 
-- [Java集合.HashMap底层实现(JDK1.8之前/后)](https://github.com/Snailclimb/JavaGuide/blob/master/Java%E7%9B%B8%E5%85%B3/%E8%BF%99%E5%87%A0%E9%81%93Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E9%A2%98%E5%87%A0%E4%B9%8E%E5%BF%85%E9%97%AE.md#hashmap%E7%9A%84%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0)
+- [微信 PaxosStore:海量数据冷热分级架构](https://cloud.tencent.com/developer/article/1020347)
 
-- [Java集合.ConcurrentHashMap底层实现(JDK1.8之前、之后)](https://github.com/Snailclimb/JavaGuide/blob/master/Java%E7%9B%B8%E5%85%B3/%E8%BF%99%E5%87%A0%E9%81%93Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E9%A2%98%E5%87%A0%E4%B9%8E%E5%BF%85%E9%97%AE.md#concurrenthashmap%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%E5%BA%95%E5%B1%82%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0)
+- [手机淘宝移动端接入网关基础架构演进之路](https://www.infoq.cn/article/taobao-mobile-terminal-access-gateway-infrastructure)
 
-- [ConcurrentHashMap的实现原理(JDK1.7和JDK1.8)](http://youzhixueyuan.com/concurrenthashmap.html)
+- [金融云存储灾备之两地三中心](http://www.yangguanjun.com/2017/09/12/storage-backup-multisite/)
 
-- [Java集合.TreeMap源码分析](http://www.tianxiaobo.com/2018/01/11/TreeMap%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/)
+- [常见性能优化策略总结](http://shark.farbox.com/post/xing-neng-ce-shi/chang-jian-xing-neng-you-hua-ce-lue-de-zong-jie)
 
-- [Java集合.集合容器对比](https://github.com/Snailclimb/JavaGuide/blob/master/Java%E7%9B%B8%E5%85%B3/Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93.md)
+- [HTTP长连接200万尝试及调优](http://shark.farbox.com/post/xing-neng-ce-shi-fu-wu-qi/tao-bao-ji-zhu-fen-xiang-httpchang-lian-jie-200mo-chang-shi-ji-diao-you)
 
-#### 线程与锁
+- [58到家数据库30条军规解读](https://mp.weixin.qq.com/s/Yjh_fPgrjuhhOZyVtRQ-SA)
 
-- [Java并发编程.进程和线程](https://www.cnblogs.com/dolphin0520/p/3910667.html)
+- [赶集数据库军规](https://mp.weixin.qq.com/s/oQstfRFuGOvUVnElRqS5aw)
 
-- [认识协程](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013868328689835ecd883d910145dfa8227b539725e5ed000)
+- [100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/3O3kPSwV-tAeYdy2ZRACpg)
 
-- [Java线程与内核线程的关系](https://www.cnblogs.com/zhangfengshi/p/9953476.html)
+- [数据库秒级平滑扩容架构方案](https://mp.weixin.qq.com/s/BLOneOs-cPxP_9b5eH8oQA)
 
-- [线程的实现与调度](https://blog.csdn.net/ns_code/article/details/17371269)
+- [一分钟掌握数据库垂直拆分](https://mp.weixin.qq.com/s/ezD0CWHAr0RteC9yrwqyZA)
 
-- [进程、线程与协程](https://www.cnblogs.com/zhang-can/p/7215506.html)
+- [“跨库分页”的四种方案](https://mp.weixin.qq.com/s/h99sXP4mvVFsJw6Oh3aU5A)
 
-- [Java线程与操作系统线程调度映射](https://www.jianshu.com/p/3f6b26ee51ce)
-	
-- [Java多线程和操作系统多线程关系](https://blog.csdn.net/faker_wang/article/details/80714772)
+- [100亿数据平滑数据迁移](https://mp.weixin.qq.com/s/Ozqu2A7Sy_TGKkF6yF1rDQ)
 
-- [Java线程与操作系统线程](https://blog.csdn.net/nalanmingdian/article/details/77748326)
+- [MySQL冗余数据的三种方案](https://mp.weixin.qq.com/s/thG591wNnKX8_ICQS3l3HQ)
 
-- [Java并发编程.线程基本状态](https://www.cnblogs.com/chanshuyi/p/4445621.html)
+- [Session一致性架构设计实践](https://mp.weixin.qq.com/s/NnnqVrC9-Jekwy3Opmvy_w)
 
-- [Java并发编程.线程状态控制](https://www.cnblogs.com/chanshuyi/p/4446992.html)
+- [http://developer.51cto.com/art/201807/579943.htm](http://developer.51cto.com/art/201807/579943.htm)
 
-- [Java并发编程.线程间的协作(wait/notify/sleep/yield/join)](http://www.cnblogs.com/paddix/p/5381958.html)
+- [到底什么时候该使用MQ](https://mp.weixin.qq.com/s/Brd-j3IcljcY7BV01r712Q)
 
-- [Java并发编程.Thread类的使用](https://www.cnblogs.com/dolphin0520/p/3920357.html)
+- [MQ.互联网架构解耦神器](https://mp.weixin.qq.com/s/2PFd4xQ9F9S_9g23WtyFGw)
 
-- [Java并发编程.Callable、Future和FutureTask](https://www.cnblogs.com/dolphin0520/p/3949310.html)
+- [MQ.如何做到消息必达](https://mp.weixin.qq.com/s/x9IRp4-1N4otIVBEEIE-og)
 
-- [4种常用Java线程锁](http://youzhixueyuan.com/4-kinds-of-java-thread-locks.html)
+- [MQ.如何做到消息幂等](https://mp.weixin.qq.com/s/h74d6LtGB5M8VF0oLrXdCA)
 
-- [Java并发编程.同步锁、读写锁](https://www.cnblogs.com/chanshuyi/p/4456913.html)
+- [MQ.如何做到消息延时](https://mp.weixin.qq.com/s/eDMV25YqCPYjxQG-dvqSqQ)
 
-- [Java并发编程.Synchronized关键字](https://www.cnblogs.com/dolphin0520/p/3923737.html)
+- [MQ.如何做到削峰填谷](https://mp.weixin.qq.com/s/3C7UZUH3eVuOVnWeea3_Ig)
 
-- [Java并发编程.Synchronized及其原理实现](https://www.cnblogs.com/paddix/p/5367116.html)
+- [MQ.消息中间件选型](https://mp.weixin.qq.com/s/ad7jibTb5nTzh3nDQYKFeg)
 
-- [Java并发编程.Synchronized底层优化(偏向锁、轻量级锁)](http://www.cnblogs.com/paddix/p/5405678.html)
+- [配置中心.互联网架构解耦利器](https://mp.weixin.qq.com/s/v3pu65aQjbX68KkuT2CunA)
 
-- [Java并发编程.Lock(ReentrantLock、ReadWriteLock、ReentrantReadWriteLock)](https://www.cnblogs.com/dolphin0520/p/3923167.html)
+- [秒杀系统，架构与优化细节](https://mp.weixin.qq.com/s/5aMN9SqaWa57rYGgtdAF_A)
 
-- [Java并发编程.公平锁和非公平锁](https://www.cnblogs.com/dolphin0520/p/3923167.html)
+- [广告系统，业务与架构细节](https://mp.weixin.qq.com/s/lyprAqK-eVGOoxohrod5Hw)
 
-- [Java并发编程.volatile关键字](https://www.cnblogs.com/dolphin0520/p/3920373.html)
+- [计数系统，架构与优化细节](https://mp.weixin.qq.com/s/cCnPGRQ6LZHg8-7FRJLaKQ)
 
-- [Java并发编程.volatile的使用及其原理](http://www.cnblogs.com/paddix/p/5428507.html)
+- [搜索引擎的原理，架构与细节](https://mp.weixin.qq.com/s/4-PhkDYeiNmY-m0usUGYQw)
 
-- [Java并发编程.ThreadLocal原理](https://www.cnblogs.com/dolphin0520/p/3920407.html)
+- [流量从小到大，检索架构演进](https://mp.weixin.qq.com/s/-SGXgocSkpWuJrZS8Jm8vQ)
 
-- [Java并发编程.同步容器](https://www.cnblogs.com/dolphin0520/p/3933404.html)
+- [全网搜索引擎，如何检索到15分钟之前生成的网页](https://mp.weixin.qq.com/s/UQD9Ltt2fFAJjUQWJGw6iQ)
 
-- [Java并发编程.ConcurrentModificationException异常](https://www.cnblogs.com/dolphin0520/p/3933551.html)
+- [感性认识JWT](https://blog.tengshe789.tech/2018/12/02/%E6%84%9F%E6%80%A7%E8%AE%A4%E8%AF%86jwt/)
 
-- [Java并发编程.ConcurrentHashMap](https://www.cnblogs.com/dolphin0520/p/3932905.html)
+- [基于JWT的Token登录验证功能](https://juejin.im/post/5c43da9c6fb9a049df245f96)
 
-- [Java并发编程.CopyOnWriteArrayList](https://www.cnblogs.com/dolphin0520/p/3938914.html)
+- [分布式一致算法.从2PC到3PC](https://www.jianshu.com/p/2bcf2c8c726a)
 
-- [Java并发编程.线程池原理分析,都有什么参数? 底层如何实现?](http://www.tianxiaobo.com/2018/04/17/Java-%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90/)
+- [CAP一致性概述](https://juejin.im/post/5c738f8ff265da2d9d1cb378)
 
-- [Java并发编程.线程池的使用](https://www.cnblogs.com/dolphin0520/p/3932921.html) 
+- [基于Zookeeper的分布式锁设计](http://www.tianxiaobo.com/2018/01/20/%E5%9F%BA%E4%BA%8E-Zookeeper-%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E5%AE%9E%E7%8E%B0/)
 
-- [Java并发编程.ThreadGroup](https://www.cnblogs.com/barrywxx/p/9976417.html)
+- [各大互联网公司架构演进](https://mp.weixin.qq.com/s/esYjHTHHcY-UMmvl9JqYXw)
 
-- [Java并发编程.CountDownLatch、CyclicBarrier和Semaphore](https://www.cnblogs.com/dolphin0520/p/3920397.html)
+- [饿了么异地多活实时双向复制工具](https://juejin.im/entry/5aba19e76fb9a028b547e880)
 
-- [Java并发编程.Timer和TimerTask](https://www.cnblogs.com/dolphin0520/p/3938991.html)
+- [微信.基于时间序的海量数据冷热分级架构设计实践](https://mp.weixin.qq.com/s/XlZF0GDt7dnHyYuS1an6tg)
 
-- [Java并发编程.Fork-Join](https://www.cnblogs.com/aspirant/p/8622584.html)
+- [微信.PaxosStore:海量数据冷热分级架构](https://cloud.tencent.com/developer/article/1020347)
 
-- [Java并发编程.认识AQS](https://www.jianshu.com/p/da9d051dcc3d)
+- [微信.百亿级红包的高并发资金交易系统设计方案](https://www.infoq.cn/article/2017hongbao-weixin)
 
-- [Java并发编程.AQS原理及AQS同步组件总结](https://mp.weixin.qq.com/s/joa-yOiTrYF67bElj8xqvg)
+- [阿里.DRC(用于在单元间同步MySQL数据)的演进过程](https://yq.aliyun.com/articles/2350)
 
-- [Java并发编程.AQS原理和学习](https://juejin.im/post/5c739c5cf265da2dd8689b46)
+- [异地多活架构设计概述](https://yq.aliyun.com/articles/57715)
 
-- [Java并发编程.CAS原子操作及其Java中的应用](https://juejin.im/post/5c7281365188252a160f148b)
+- [有赞.Druid实践之路](https://juejin.im/post/5c7390cce51d457e3d14f1c6)
 
-- [Java并发编程.CAS中的ABA问题以及如何解决](https://www.cnblogs.com/barrywxx/p/8687653.html)
+- [有赞.Flink实时计算实践](https://juejin.im/post/5c4146a6f265da615d72e68b)
 
-- [Java并发编程.Java中的锁原理、锁优化、CAS、AQS](https://www.cnblogs.com/barrywxx/p/8678698.html)
+- [有赞.全链路压测引擎的设计与实现](https://juejin.im/post/5c20a52af265da613a5408b8)
 
-- [Java并发编程.面试题](https://www.cnblogs.com/dolphin0520/p/3932934.html)
+- [有赞.全链路压测实践](https://juejin.im/post/5c17518fe51d454db5635df6)
 
-- [Java并发编程.面试题](https://www.cnblogs.com/dolphin0520/p/3958019.html)
+- [有赞.业务对账平台探索以实践](https://juejin.im/post/5c3f2ecdf265da61715e92c0)
 
-- [如何实现一个延时队列](https://liuzhengyang.github.io/2017/01/03/delay-queue/)
+- [有赞.响应式架构与RxJava应用实践](https://juejin.im/post/5c359d1bf265da6130750f78)
 
-- [线程数究竟设多少合理](https://mp.weixin.qq.com/s/CBGMRsk6aFYAGiYQucqF_w)
+- [腾讯亿级排行榜系统实践及挑战](http://www.sohu.com/a/289578817_120000220)
 
-- [Java中如何让线程按照自己指定的顺序执行](https://blog.csdn.net/u010185035/article/details/81172767)
+- [视频直播平台的架构和演进](http://www.cnblogs.com/wintersun/p/7661216.html)
 
-- [让线程按顺序执行8种方法](https://www.cnblogs.com/wenjunwei/p/10573289.html)
+- [电商购物车系统架构和演进](http://www.cnblogs.com/wintersun/p/6683957.html)
 
-#### JAVA IO
+- [电商搜索平台架构和演进](http://www.cnblogs.com/wintersun/p/5925496.html)
 
-- [JavaIO.认识NIO](https://www.cnblogs.com/duanxz/p/6759689.html)
+- [微信与朋友圈后台架构讲解](https://www.2cto.com/kf/201603/496529.html)
 
-- [JavaIO流: IO、NIO、AIO](https://github.com/Snailclimb/JavaGuide/blob/master/Java%E7%9B%B8%E5%85%B3/Java%20IO%E4%B8%8ENIO.md)
+- [各大直播平台的架构设计与问题解决](http://tech.it168.com/a2018/1023/5079/000005079046.shtml)
 
-- [JavaIO.图解BIO、NIO、AIP](https://www.cnblogs.com/barrywxx/p/8430790.html)
+- [Elastic和Cannal打算实时搜索系统](https://www.cnblogs.com/chanshuyi/p/6669006.html)
 
-- [JavaIO模型(IO、NIO、AIO)和Linux的IO模型(阻塞IO、非阻塞IO、信号驱动IO、IO复用、异步IO)](http://tech.huntswork.com/2016/03/27/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-IO%E6%A8%A1%E5%9E%8B/)
+- [百万级报警平台的架构设计与实现](http://tech.it168.com/a2018/1116/5100/000005100278.shtml)
 
-- [JAVAIO.BIO、NIO、AIP示例](https://www.cnblogs.com/barrywxx/p/8570807.html)
+- [荔枝FM架构实践与演进历程](http://tech.it168.com/a2019/0128/5154/000005154268.shtml)
+
+- [云直播系统架构与实施](https://blog.csdn.net/zhangbijun1230/article/details/85269407)
+
+- [流媒体系统的技术架构及应用](https://blog.csdn.net/ccit0519/article/details/69945467)
+
+- [移动直播技术秒开优化经验](https://www.jianshu.com/p/16a8d4817c60)
+
+- [阿里云直播系统背后的技术](https://www.jianshu.com/p/10231798e2a4)
+
+- [苏宁金融信用支付及贷款平台架构设计](http://wemedia.ifeng.com/75022931/wemedia.shtml)
+
+- [好友动态的设计](http://www.kkh86.com/it/reprint/guide-fun-friends-activity.html)
+
+- [从0到1：微信后台系统的演进之路](https://www.jianshu.com/p/f8b80ad7a217)
+
+- [千万Feed流系统的存储技术解密](https://yq.aliyun.com/articles/592923?utm_content=m_49922)
+
+- [现代IM系统中的消息系统架构](https://zhuanlan.zhihu.com/p/62586632)
+
+- [支付系统订单模型该如何设计](https://www.jianshu.com/p/e674ee68fd3f)
+
+- [移动端支付系统如何设计有效地防重失效机制](https://mp.weixin.qq.com/s/8ityZIxHckFECHDahd6ciA)
 
 
 ## 分布式
