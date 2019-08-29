@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-   <strong style="font-weight:300;font-size:13px;">感谢: 微信、CSDN、开源中国、博客园、简书、头条号、头条IO等 媒体平台提供内容资源</strong>
+   <strong>感谢: 微信、CSDN、开源中国、博客园、简书、头条号、头条IO等 媒体平台提供内容资源</strong>
 </p>
 
 <p align="center">
