@@ -14,12 +14,10 @@
 
 <p align="center">
    <a target="_blank" href="https://github.com/P-P-X/awesome-collector">
-        <img src="https://img.shields.io/github/stars/P-P-X/awesome-collector.svg?style=social&label=Stars"></img>
+       <img src="https://img.shields.io/github/stars/P-P-X/awesome-collector.svg?style=social&label=Stars"></img>
    </a>
 </p>	
     
-
-
 
 ### Java理论
 
