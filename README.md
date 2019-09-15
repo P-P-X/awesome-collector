@@ -1230,7 +1230,3 @@
 - [ActiveMQ 高可用集群方案](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fcao9bv&aid=7144&nid=130)
 - [如果有 10000 台机器，你想怎么玩？](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Ftbdmv6&aid=5491&nid=109)
 - [Sky Walking：对 Java 分布式应用程序集群业务运行情况进行追踪、告警和分析的系统](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fagpnck&aid=5541&nid=109)
-
-## 运维部署
-
-- [Let’s Encrypt免费证书](https://www.hi-linux.com/posts/6968.html)
