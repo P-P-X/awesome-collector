@@ -159,6 +159,20 @@
 
 - [蚂蚁金服异地多活单元化架构解决方案](https://tech.antfin.com/solutions/multiregionldc)
 
+- [Idea远程一键部署springboot到Docker](https://juejin.im/post/5d026212f265da1b8608828b)
+
+- [如何设计实时数据计算平台-设计篇](https://juejin.im/post/5d0afaeff265da1ba647f1f8)
+
+- [如何设计实时数据计算平台-技术篇](https://juejin.im/post/5d0c53ad5188255716490f92)
+
+- [宜人贷数据平台Genie架构设计](https://juejin.im/post/5d070bafe51d454f6f16ebd9)
+
+- [宜信敏捷数据中台建设实践](https://juejin.im/post/5cecab63f265da1bcb4f0c0d)
+
+- [数据可视化分析平台开源方案集锦](https://juejin.im/post/5c3bf4706fb9a049fc03c386)
+
+- [爱奇艺业务安全风控体系的建设实践](https://www.4hou.com/business/7974.html)
+
 - [浅谈 OpenResty](https://blog.csdn.net/yhclt/article/details/79309237)
 
 - [免费SSL证书letsencrypt配置教程](https://timyang.net/web/https-nginx-ubuntu-howto/)
