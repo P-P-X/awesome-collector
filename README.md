@@ -121,6 +121,8 @@
 
 - [支付平台的架构设计](https://mp.weixin.qq.com/s/QDqtnj02gfxdlyfTKOOnGQ)
 
+- [蚂蚁金服 Service Mesh 落地实践与挑战](https://weibo.com/ttarticle/p/show)
+
 - [微信为啥这么省流量](https://mp.weixin.qq.com/s/PlUT-xIDGy-SdJkimHvC9A)
 
 - [百度咋做长文本去重](https://mp.weixin.qq.com/s/8Lb7URGBexileA3_WR1apg)
@@ -133,9 +135,13 @@
 
 - [秒杀架构实践](https://mp.weixin.qq.com/s/a9YKsZ-GejFjQMCUIZPBQw)
 
+- [数据库分库分表](https://weibo.com/ttarticle/p/show?id=2309404404835460972649)
+
 - [30秒懂SQL中的join](https://mp.weixin.qq.com/s/OfbwO2Sz1QNxfSRpNLzAwA)
 
 - [浅谈MySQL集群高可用架构](https://mp.weixin.qq.com/s/ByXZxm7Ih_Vn0Z7rLo_MQw)
+
+- [保证分布式系统数据一致性的6种方案](https://weibo.com/ttarticle/p/show)
 
 - [漫画：什么是蓝绿部署](https://mp.weixin.qq.com/s/pzvZoyFG9j4takV6Q0pHWw)
 
