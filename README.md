@@ -26,22 +26,14 @@
 ### 目录
 
 | 分类        |  标签           |
-| ----------   | --------------  |
+| ----------  | -------------- |
 | [运维部署](https://github.com/P-P-X/awesome-collector/blob/master/%E8%BF%90%E7%BB%B4%E9%83%A8%E7%BD%B2.md)  |  持续更新中  |
 | [理论基础](https://github.com/P-P-X/awesome-collector/blob/master/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.md)  |  操作系统、 网络、数据库、数据结构  |
 | [Java生态](https://github.com/P-P-X/awesome-collector/blob/master/Java%E7%94%9F%E6%80%81.md)  |  JVM、JUC、线程&锁、IO  |
-| [容器框架](https://github.com/P-P-X/awesome-collector/blob/master/%E5%AE%B9%E5%99%A8%E6%A1%86%E6%9E%B6.md)  |  Spring、Mybatis、Cache、Tomcat、Maven、Nginx、Netty、RPC、Shiro、 MQ、 Es&Solr |
+| [容器框架](https://github.com/P-P-X/awesome-collector/blob/master/%E5%AE%B9%E5%99%A8%E6%A1%86%E6%9E%B6.md)  |  Springcloud、Mybatis、Cache、Tomcat、Maven、Nginx、Netty、RPC、Shiro、 MQ、 Es&Solr |
 | [开源项目](https://github.com/P-P-X/awesome-collector/blob/master/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.md)  |  持续更新中  |
 | [在线工具](https://github.com/P-P-X/awesome-collector/blob/master/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7.md)  |  持续更新中  |
 
-
-
-- [运维部署](https://github.com/P-P-X/awesome-collector/blob/master/%E8%BF%90%E7%BB%B4%E9%83%A8%E7%BD%B2.md)
-- [理论基础](https://github.com/P-P-X/awesome-collector/blob/master/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.md)
-- [容器集合](https://github.com/P-P-X/awesome-collector/blob/master/%E5%AE%B9%E5%99%A8%E9%9B%86%E5%90%88.md)
-- [Java生态](https://github.com/P-P-X/awesome-collector/blob/master/Java%E7%94%9F%E6%80%81.md)
-- [开源项目](https://github.com/P-P-X/awesome-collector/blob/master/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.md)
-- [在线工具](https://github.com/P-P-X/awesome-collector/blob/master/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7.md)
 
 
 ### 系统架构
