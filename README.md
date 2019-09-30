@@ -327,6 +327,7 @@
 
 - [移动端支付系统如何设计有效地防重失效机制](https://mp.weixin.qq.com/s/8ityZIxHckFECHDahd6ciA)
 
+- [史上最全的Spring Boot Cache使用与整合](https://www.cnblogs.com/yueshutong/p/9381540.html)
 
 ## 分布式
 
