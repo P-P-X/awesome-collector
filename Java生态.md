@@ -257,5 +257,5 @@
 
 - [JavaIO模型(IO、NIO、AIO)和Linux的IO模型(阻塞IO、非阻塞IO、信号驱动IO、IO复用、异步IO)](http://tech.huntswork.com/2016/03/27/%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95/%E7%90%86%E8%A7%A3Java-IO%E6%A8%A1%E5%9E%8B/)
 
-- [JAVAIO.BIO、NIO、AIP示例](https://www.cnblogs.com/barrywxx/p/8570807.html)
+- [JavaIO应用BIO、NIO、AIP示例](https://www.cnblogs.com/barrywxx/p/8570807.html)
 
