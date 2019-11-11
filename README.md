@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-   <strong>相信坚持的力量</strong>
+   <strong>Awesome-Collector</strong>
 </p>
 
 <p align="center">
@@ -33,7 +33,6 @@
 | [容器框架](https://github.com/P-P-X/awesome-collector/blob/master/%E5%AE%B9%E5%99%A8%E6%A1%86%E6%9E%B6.md)  |  Springcloud、Mybatis、Cache、Tomcat、Maven、Nginx、Netty、RPC、Shiro、 MQ、 Es&Solr |
 | [开源项目](https://github.com/P-P-X/awesome-collector/blob/master/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.md)  |  持续更新中  |
 | [在线工具](https://github.com/P-P-X/awesome-collector/blob/master/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7.md)  |  持续更新中  |
-
 
 
 
@@ -67,6 +66,8 @@
 
 - [互联网架构为什么要做服务化](https://mp.weixin.qq.com/s/wwJaxK2E5fZu_QCik-NouQ)
 
+- [仿真环境/流量回放/全链路压测](https://www.codercto.com/a/75597.html)
+
 <!-- more -->
 
 - [各大互联网公司架构演进之路汇总](https://mp.weixin.qq.com/s/esYjHTHHcY-UMmvl9JqYXw)
@@ -96,6 +97,10 @@
 - [亿级流量系统架构之如何在上万并发场景下设计可扩展架构](https://juejin.im/post/5c242848f265da615a41de2c)
 
 - [MQ如何解决消息的顺序&重复两大硬伤](https://blog.csdn.net/u011647020/article/details/83656819)
+
+- [美团点评全链路压测自动化实践](https://www.cnblogs.com/alan-blog-TsingHua/p/11015783.html)
+
+- [监控系统哪家强？看饿了么与美团点评的差异对比](https://mp.weixin.qq.com/s/5x4Q_Tz2MSbvKGe5D6qCdw)
 
 - [高并发架构 TCP认知](https://juejin.im/post/5cd103e2f265da03804383e1)
 
