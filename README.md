@@ -25,12 +25,16 @@
 
 ### 目录
 
-- [运维部署](https://github.com/P-P-X/awesome-collector/blob/master/%E8%BF%90%E7%BB%B4%E9%83%A8%E7%BD%B2.md)
-- [理论基础](https://github.com/P-P-X/awesome-collector/blob/master/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.md)
-- [容器集合](https://github.com/P-P-X/awesome-collector/blob/master/%E5%AE%B9%E5%99%A8%E9%9B%86%E5%90%88.md)
-- [Java生态](https://github.com/P-P-X/awesome-collector/blob/master/Java%E7%94%9F%E6%80%81.md)
-- [开源项目](https://github.com/P-P-X/awesome-collector/blob/master/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.md)
-- [在线工具](https://github.com/P-P-X/awesome-collector/blob/master/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7.md)
+| 分类        |  标签           |
+| ----------  | -------------- |
+| [运维部署](https://github.com/P-P-X/awesome-collector/blob/master/%E8%BF%90%E7%BB%B4%E9%83%A8%E7%BD%B2.md)  |  持续更新中  |
+| [理论基础](https://github.com/P-P-X/awesome-collector/blob/master/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.md)  |  操作系统、 网络、数据库、数据结构  |
+| [Java生态](https://github.com/P-P-X/awesome-collector/blob/master/Java%E7%94%9F%E6%80%81.md)  |  JVM、JUC、线程&锁、IO  |
+| [容器框架](https://github.com/P-P-X/awesome-collector/blob/master/%E5%AE%B9%E5%99%A8%E6%A1%86%E6%9E%B6.md)  |  Springcloud、Mybatis、Cache、Tomcat、Maven、Nginx、Netty、RPC、Shiro、 MQ、 Es&Solr |
+| [开源项目](https://github.com/P-P-X/awesome-collector/blob/master/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.md)  |  持续更新中  |
+| [在线工具](https://github.com/P-P-X/awesome-collector/blob/master/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7.md)  |  持续更新中  |
+
+
 
 
 ### 系统架构
@@ -121,6 +125,8 @@
 
 - [支付平台的架构设计](https://mp.weixin.qq.com/s/QDqtnj02gfxdlyfTKOOnGQ)
 
+- [蚂蚁金服 Service Mesh 落地实践与挑战](https://weibo.com/ttarticle/p/show)
+
 - [微信为啥这么省流量](https://mp.weixin.qq.com/s/PlUT-xIDGy-SdJkimHvC9A)
 
 - [百度咋做长文本去重](https://mp.weixin.qq.com/s/8Lb7URGBexileA3_WR1apg)
@@ -133,9 +139,13 @@
 
 - [秒杀架构实践](https://mp.weixin.qq.com/s/a9YKsZ-GejFjQMCUIZPBQw)
 
+- [数据库分库分表](https://weibo.com/ttarticle/p/show?id=2309404404835460972649)
+
 - [30秒懂SQL中的join](https://mp.weixin.qq.com/s/OfbwO2Sz1QNxfSRpNLzAwA)
 
 - [浅谈MySQL集群高可用架构](https://mp.weixin.qq.com/s/ByXZxm7Ih_Vn0Z7rLo_MQw)
+
+- [保证分布式系统数据一致性的6种方案](https://weibo.com/ttarticle/p/show)
 
 - [漫画：什么是蓝绿部署](https://mp.weixin.qq.com/s/pzvZoyFG9j4takV6Q0pHWw)
 
@@ -158,6 +168,20 @@
 - [消息中间件如何实现每秒几十万的高并发写入](https://juejin.im/post/5c7bd09b6fb9a049ba424c15)
 
 - [蚂蚁金服异地多活单元化架构解决方案](https://tech.antfin.com/solutions/multiregionldc)
+
+- [Idea远程一键部署springboot到Docker](https://juejin.im/post/5d026212f265da1b8608828b)
+
+- [如何设计实时数据计算平台-设计篇](https://juejin.im/post/5d0afaeff265da1ba647f1f8)
+
+- [如何设计实时数据计算平台-技术篇](https://juejin.im/post/5d0c53ad5188255716490f92)
+
+- [宜人贷数据平台Genie架构设计](https://juejin.im/post/5d070bafe51d454f6f16ebd9)
+
+- [宜信敏捷数据中台建设实践](https://juejin.im/post/5cecab63f265da1bcb4f0c0d)
+
+- [数据可视化分析平台开源方案集锦](https://juejin.im/post/5c3bf4706fb9a049fc03c386)
+
+- [爱奇艺业务安全风控体系的建设实践](https://www.4hou.com/business/7974.html)
 
 - [浅谈 OpenResty](https://blog.csdn.net/yhclt/article/details/79309237)
 
@@ -329,6 +353,7 @@
 
 - [Sky Walking：对 Java 分布式应用程序集群业务运行情况进行追踪、告警和分析的系统](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fagpnck&aid=5541&nid=109)
 
+- [史上最全的Spring Boot Cache使用与整合](https://www.cnblogs.com/yueshutong/p/9381540.html)
 
 ## 分布式
 
@@ -1241,6 +1266,19 @@
 - [[译] 如何利用 Python 中的 @property 装饰器快速重构代码？](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fkj0g4l&aid=4655&nid=99)
 - [前端技能训练：重构一 (@Phodal)](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fihikv&aid=2710&nid=77)
 
-## 运维部署
+## 集群
 
-- [Let’s Encrypt免费证书](https://www.hi-linux.com/posts/6968.html)
+- [Zookeeper 集群如何高可用部署？](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fpsflvg&aid=16363&nid=263)
+- [滴滴 Elasticsearch 多集群架构实践](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2F6ywapq&aid=16250&nid=262)
+- [那些年用过的 Redis 集群架构](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fbx4tiy&aid=15297&nid=249)
+- [分布式高性能 Redis 集群线上常见问题](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Ffxnlcx&aid=14485&nid=236)
+- [Node.js：浅析高并发与分布式集群](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Flqz7i8&aid=13806&nid=226)
+- [你不知道的 RabbitMQ 集群架构全解](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2F9g5txc&aid=13722&nid=225)
+- [MySQL 高可用集群方案之 PXC](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fcazqgv&aid=13222&nid=217)
+- [集群资源调度系统设计架构总结](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fqgjwm8&aid=12690&nid=210)
+- [dubbo 源码解析：集群容错架构设计](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fg6a3fw&aid=11000&nid=186)
+- [微服务注册发现集群搭建：Registrator + Consul + Consul-template + nginx](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2F8ds6fl&aid=10390&nid=178)
+- [ActiveMQ 高可用集群方案](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fcao9bv&aid=7144&nid=130)
+- [如果有 10000 台机器，你想怎么玩？](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Ftbdmv6&aid=5491&nid=109)
+- [Sky Walking：对 Java 分布式应用程序集群业务运行情况进行追踪、告警和分析的系统](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fagpnck&aid=5541&nid=109)
+
