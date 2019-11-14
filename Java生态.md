@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-   <strong>相信坚持的力量</strong>
+   <strong>Java生态</strong>
 </p>
 
 <p align="center">
