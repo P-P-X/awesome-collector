@@ -332,6 +332,32 @@
 
 - [移动端支付系统如何设计有效地防重失效机制](https://mp.weixin.qq.com/s/8ityZIxHckFECHDahd6ciA)
 
+- [Zookeeper 集群如何高可用部署？](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fpsflvg&aid=16363&nid=263)
+
+- [滴滴 Elasticsearch 多集群架构实践](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2F6ywapq&aid=16250&nid=262)
+
+- [那些年用过的 Redis 集群架构](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fbx4tiy&aid=15297&nid=249)
+
+- [分布式高性能 Redis 集群线上常见问题](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Ffxnlcx&aid=14485&nid=236)
+
+- [Node.js：浅析高并发与分布式集群](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Flqz7i8&aid=13806&nid=226)
+
+- [你不知道的 RabbitMQ 集群架构全解](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2F9g5txc&aid=13722&nid=225)
+
+- [MySQL 高可用集群方案之 PXC](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fcazqgv&aid=13222&nid=217)
+
+- [集群资源调度系统设计架构总结](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fqgjwm8&aid=12690&nid=210)
+
+- [dubbo 源码解析：集群容错架构设计](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fg6a3fw&aid=11000&nid=186)
+
+- [微服务注册发现集群搭建：Registrator + Consul + Consul-template + nginx](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2F8ds6fl&aid=10390&nid=178)
+
+- [ActiveMQ 高可用集群方案](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fcao9bv&aid=7144&nid=130)
+
+- [如果有 10000 台机器，你想怎么玩？](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Ftbdmv6&aid=5491&nid=109)
+
+- [Sky Walking：对 Java 分布式应用程序集群业务运行情况进行追踪、告警和分析的系统](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fagpnck&aid=5541&nid=109)
+
 - [史上最全的Spring Boot Cache使用与整合](https://www.cnblogs.com/yueshutong/p/9381540.html)
 
 ## 分布式
@@ -1260,3 +1286,4 @@
 - [ActiveMQ 高可用集群方案](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fcao9bv&aid=7144&nid=130)
 - [如果有 10000 台机器，你想怎么玩？](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Ftbdmv6&aid=5491&nid=109)
 - [Sky Walking：对 Java 分布式应用程序集群业务运行情况进行追踪、告警和分析的系统](https://weekly.manong.io/bounce?url=https%3A%2F%2Ftoutiao.io%2Fk%2Fagpnck&aid=5541&nid=109)
+
