@@ -1,4 +1,4 @@
-[![QQ群](https://img.shields.io/badge/扣扣群-973085376-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=bc73f12268da5c5eafcfc91f0dd05eb7fed033420921ef7bf4eca316deb7e12)
+[![QQ群](https://img.shields.io/badge/公众号-小猿刷题-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=bc73f12268da5c5eafcfc91f0dd05eb7fed033420921ef7bf4eca316deb7e12)
 
 <p align="center">
    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567072905503&di=058dd45bf8de45b81703b703d915acfc&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn%2Fw462h336%2F20180301%2F3f38-fwnpcns6226738.jpg" height="120">
@@ -19,7 +19,7 @@
 </p>	
  
 <p align="center">
-   <img src="http://p9-tt.byteimg.com/img/mosaic-legacy/2426b000084216a465aa5~noop_430x430.jpeg" height="100">
+   <img src="https://i.loli.net/2019/12/18/ARJloEjadv7pDiH.jpg" height="100">
    <img src="http://p3-tt.byteimg.com/img/mosaic-legacy/2425700002d408dcf8a93~noop_636x633.jpeg" height="100">
 </p>  
 
