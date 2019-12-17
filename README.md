@@ -1,4 +1,4 @@
-[![QQ群](https://img.shields.io/badge/扣扣群-973085376-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=bc73f12268da5c5eafcfc91f0dd05eb7fed033420921ef7bf4eca316deb7e12)
+[![QQ群](https://img.shields.io/badge/公众号-小猿刷题-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=bc73f12268da5c5eafcfc91f0dd05eb7fed033420921ef7bf4eca316deb7e12)
 
 <p align="center">
    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567072905503&di=058dd45bf8de45b81703b703d915acfc&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn%2Fw462h336%2F20180301%2F3f38-fwnpcns6226738.jpg" height="120">
