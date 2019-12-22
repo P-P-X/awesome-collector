@@ -27,6 +27,8 @@
 
 #### Java JVM
 
+- [Java高频面试基础](https://www.jianshu.com/p/06ff2ea9b2c3)
+
 - [JVM核心知识体系](https://mp.weixin.qq.com/s/clMdl6eW9hz9jiB5oDSawA)
 
 - [理解Java虚拟机](https://www.cnblogs.com/williamjie/p/9511108.html)
