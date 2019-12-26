@@ -70,6 +70,14 @@
 
 <!-- more -->
 
+- [浅谈Nginx服务器的内部核心架构设计](https://juejin.im/entry/5b4c0c7ef265da0f4c6fb117)
+
+- [实时音视频的架构设计](https://juejin.im/entry/5ae28f09518825671f2f7e30)
+
+- [美团即时物流的分布式系统架构设计](https://juejin.im/post/5bf79a846fb9a04a0a5ed552)
+
+- [PB级海量数据服务平台架构设计实践](http://shiyanjun.cn/archives/1702.html)
+
 - [各大互联网公司架构演进之路汇总](https://mp.weixin.qq.com/s/esYjHTHHcY-UMmvl9JqYXw)
 
 - [高并发IM系统架构优化实践](https://juejin.im/post/5b1e2cc15188257d4529804b)
