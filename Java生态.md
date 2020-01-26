@@ -260,3 +260,7 @@
 
 - [JavaIO应用BIO、NIO、AIP示例](https://www.cnblogs.com/barrywxx/p/8570807.html)
 
+
+
+- [北美求职记](https://blog.yxwang.me/2012/12/job-hunting-in-usa-1/)
+- [Google面试](https://www.cnblogs.com/cathsfz/archive/2012/08/08/google-interview-experience.html)
