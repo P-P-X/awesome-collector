@@ -130,10 +130,6 @@
 
 - [Java集合.HashMap和HashTable的区别](https://blog.csdn.net/varyall/article/details/81988978)
 
-- Hashmap和Treemap有什么区别? 底层数据结构是什么?
-
-- [Java集合.HashMap的长度为什么是2的幂次方](https://blog.csdn.net/varyall/article/details/81988978)
-
 - [HashMap 多线程下死循环分析及JDK8修复](https://cloud.tencent.com/developer/article/1120823)
 
 - [Java集合.ConcurrentHashMap和HashTable的区别](https://blog.csdn.net/varyall/article/details/81988978)
